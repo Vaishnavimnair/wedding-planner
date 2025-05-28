@@ -1,17 +1,18 @@
+import "./Navigation.css";
+import React, { useState } from "react";
+
 export default function Navigation() {
-    return (
-        <div>
-            <header>
-                <div>
-                <h1>EVENTIQUE</h1>
-                <h3>dine and design</h3>
-                </div>
-                
-                <div>
-                    <a href="">Home</a>
-                    <a href="">About us</a>
-                </div>
-            </header>
-        </div>
-    );
+  return (
+    <header className="header">
+      <a href="/" className="logo">
+        Eventique
+      </a>
+
+      <nav className="navbar">
+        <a href="/">Home</a>
+        <a href="/">About Us</a>
+        <a href="/">User</a>
+      </nav>
+    </header>
+  );
 }
