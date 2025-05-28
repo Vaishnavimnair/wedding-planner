@@ -9,6 +9,9 @@ export default function Navigation() {
       </a>
 
       <nav className="navbar">
+        <div className='search-box' >
+          <input type="text" placeholder="search"/>
+        </div>
         <a href="/">Home</a>
         <a href="/">About Us</a>
         <a href="/">User</a>
